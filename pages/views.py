@@ -1,5 +1,5 @@
-from django.shortcuts import render
 import requests
+from django.shortcuts import render
 
 
 # Create your views here.
@@ -21,7 +21,7 @@ def send_telegram(request):
 
 
 def send_to_telegram(message):
-    bot_token = '5747389813:AAHyCKcY-Q-wdaWbIC-3CmuYpDUTaWBB2U0'
+    bot_token = '6136712280:AAG8hEvB7ppCjqdr3lBXkcMsSceli-OfgRU'
     chat_id = '1732668204'
     url = f'https://api.telegram.org/bot{bot_token}/sendMessage'
     payload = {
